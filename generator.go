@@ -20,7 +20,7 @@ func GenerateHeader(config Config) string {
 		header += "\n<div align=\"center\">"
 		for _, badge := range badges {
 			title := strings.Title(strings.ReplaceAll(badge, "-", ""))
-			header += fmt.Sprintf("\n<img alt=%s src=\"https://img.shields.io/github/%s/%s?color=c3e7ff&style=flat-square\"", title, badge, config.GhRepoPath)
+			header += fmt.Sprintf("\n<img alt=%s src=\"https://img.shields.io/github/%s/%s?color=c3e7ff&style=flat-square\">", title, badge, config.GhRepoPath)
 		}
 		header += "\n</div>"
 	}
