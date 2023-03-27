@@ -28,4 +28,7 @@
 ## License
 
 readme-generator is licensed under the [GPL-3.0](https://www.gnu.org/licenses/gpl-3.0.en.html)
-Generated with the [Readme generator](https://github.com/Bnyro/readme-generator/) by [Bnyro](https://github.com/Bnyro)
+
+<hr />
+
+***Generated with the [Readme generator](https://github.com/Bnyro/readme-generator/) by [Bnyro](https://github.com/Bnyro)***
