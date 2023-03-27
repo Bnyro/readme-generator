@@ -62,6 +62,7 @@ func Generate(config Config) string {
 	content += GenerateList("Dependencies", config.Dependencies)
 	content += GenerateContributionGuidelines(config)
 	content += GenerateLicenseInfo(config)
+	content += "\nGenerated with the [Readme generator](https://github.com/Bnyro/readme-generator/) by [Bnyro](https://github.com/Bnyro)"
 	return content
 }
 
